@@ -35,12 +35,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dortania/OpenCore-Desktop-Guide.git"
+    "url": "git+https://github.com/SIXFLOW-OpenCore-KR/OpenCore-Desktop-Guide.git"
   },
   "author": "Dortania",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/dortania/OpenCore-Desktop-Guide/issues"
+    "url": "https://github.com/SIXFLOW-OpenCore-KR/OpenCore-Desktop-Guide/issues"
   },
-  "homepage": "https://github.com/dortania/OpenCore-Desktop-Guide#readme"
+  "homepage": "https://github.com/SIXFLOW-OpenCore-KR/OpenCore-Desktop-Guide#readme"
 }
