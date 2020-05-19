@@ -1,7 +1,7 @@
 # Table of contents
 
-* [OpenCore Desktop Guide](README.md)
-* [Creating the USB](/installer-guide/README.md)
+* [오픈코어 데스크탑 가이드](README.md)
+* [USB 설치 디스크 ](/installer-guide/README.md)
   * [macOS install](/installer-guide/mac-install.md)
   * [Windows install](/installer-guide/winblows-install.md)
   * [Linux install](/installer-guide/linux-install.md)
