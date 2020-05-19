@@ -1,6 +1,6 @@
 # Introduction
 
-* Supported version: 0.5.8
+* 지원 버전: 0.5.8
 
 ### About
 
