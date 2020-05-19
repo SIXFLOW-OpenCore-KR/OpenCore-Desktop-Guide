@@ -62,7 +62,7 @@ This is where you'll add SSDTs for your system, these are very important to **bo
 
 For those wanting a deeper dive into dumping your DSDT, how to make these SSDTs, and compiling them, please see the [**Getting started with ACPI**](../extras/acpi.md) **page.** Compiled SSDTs have a **.aml** extension(Assembled) and will go into the `EFI/OC/ACPI` folder and **must** be specified in your config under `ACPI -> Add` as well.
 
-**Block**
+**Delete:**
 
 This blocks certain ACPI tables from loading, for us we can ignore this
 
@@ -229,8 +229,6 @@ Settings relating to the kernel, for us we'll be enabling `DummyPowerManagement`
   * Sets OpenCore to use the builtin picker
 * **HideAuxiliary**: NO
   * Hides Recovery and other partitions unless spacebar is pressed, more closely matches real Mac behavior
-* **HideSelf**: YES
-  * Hides the EFI partition as a boot option in OC's boot picker
 * **ConsoleAttributes**: `0`
   * Sets OpenCore's UI color, won't be covered here but see 8.3.8 of [Configuration.pdf](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf) for more info
 * **PickerAttributes**: `0`
@@ -253,6 +251,8 @@ Settings relating to the kernel, for us we'll be enabling `DummyPowerManagement`
 
 * **AppleDebug**: YES
   * Enables boot.efi logging, useful for debugging. Note this is only supported on 10.15.4 and newer
+* **ApplePanic**: YES
+  * Attempts to log kernel panics to disk
 * **DisableWatchDog**: YES
   * Disables the UEFI watchdog, can help with early boot issues
 * **Target**: `67`
@@ -270,8 +270,10 @@ We'll be changing `AllowNvramReset`, `AllowSetDefault`, `Vault` and `ScanPolicy`
   * Allows for NVRAM reset both in the boot picker and when pressing `Cmd+Opt+P+R`
 * **AllowSetDefault**: YES
   * Allow `CTRL+Enter` and `CTRL+Index` to set default boot device in the picker
-* **AuthRestart**: NO:
+* **AuthRestart**: NO
   * Enables Authenticated restart for FileVault 2 so password is not required on reboot. Can be considered a security risk so optional
+* **BlacklistAppleUpdate**: True
+  * Ignores Apple's firmware updater, recommended to enable as to avoid issues with installs and updates
 * **BootProtect**: None
   * Allows the use of Bootstrap.efi inside EFI/OC/Bootstrap instead of BOOTx64.efi, useful for those wanting to either boot with rEFInd or avoid BOOTx64.efi overwrites from Windows. Proper use of this quirks is not be covered in this guide
 * **ExposeSensitiveData**: `6`
@@ -351,7 +353,7 @@ Recommended to leave enabled for best security practices
 | :--- | :--- | :--- |
 | prev-lang:kbd | String | en-US:0 |
 
-**Block**: Forcibly rewrites NVRAM variables, do note that `Add` **will not overwrite** values already present in NVRAM so values like `boot-args` should be left alone.
+**Delete**: Forcibly rewrites NVRAM variables, do note that `Add` **will not overwrite** values already present in NVRAM so values like `boot-args` should be left alone.
 
 **LegacyEnable**: NO
 

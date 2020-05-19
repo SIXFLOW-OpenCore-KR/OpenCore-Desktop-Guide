@@ -127,7 +127,7 @@ So with the transition from Clover to OpenCore we should start removing unneeded
 
 **DropTables**:
 
-* `ACPI -> Block`
+* `ACPI -> Delete`
 
 **SSDT**:
 
