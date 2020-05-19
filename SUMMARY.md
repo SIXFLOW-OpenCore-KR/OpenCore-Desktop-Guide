@@ -40,31 +40,31 @@
 
 ## 오픈코어 설치후 단계
 
-* [Post-Install](/post-install/README.md)
-  * [Security and FileVault](/post-install/security.md)
-  * [Fixing Audio](/post-install/audio.md)
-  * [Booting without USB](/post-install/oc2hdd.md)
-  * [Updating OpenCore, kexts and macOS](/post-install/update.md)
-  * [Fixing CFG Lock](/extras/msr-lock.md)
-  * [Fixing Resolution and Verbose](/post-install/verbose.md)
-  * [Fixing DRM](/post-install/drm.md)
-  * [Fixing iServices](/post-install/iservices.md)
-  * [Emulated NVRAM](/post-install/nvram.md)
-  * [Fixing Power Management](/post-install/pm.md)
-  * [Setting up Bootstrap.efi](/post-install/multiboot/bootstrap.md)
-  * [Installing BootCamp](/post-install/multiboot/bootcamp.md)
-  * [Fixing USB](https://dortania.github.io/USB-Map-Guide/)
+* [오픈코어 설치후 단계](/post-install/README.md)
+  * [보안과 파일볼트](/post-install/security.md)
+  * [오디오 문제 해결](/post-install/audio.md)
+  * [USB없이 부팅하기](/post-install/oc2hdd.md)
+  * [오픈코어, 켁스트, 맥오에스 업데이트](/post-install/update.md)
+  * [CFG Lock 문제해결](/extras/msr-lock.md)
+  * [해상도와 자세히 보기 해결](/post-install/verbose.md)
+  * [DRM 문제 해결](/post-install/drm.md)
+  * [iServices 문제 해결](/post-install/iservices.md)
+  * [NVRAM 에뮬레이트](/post-install/nvram.md)
+  * [절전 관리 문제 해결](/post-install/pm.md)
+  * [Bootstrap.efi 설정](/post-install/multiboot/bootstrap.md)
+  * [부트캠프 설치](/post-install/multiboot/bootcamp.md)
+  * [USB 문제 해결](https://dortania.github.io/USB-Map-Guide/)
 
-## Extras
+## 추가 설명
 
-* [Legacy Install](/extras/legacy.md)
-* [Add GUI and Boot-chime](/extras/gui.md)
-* [iGPU Patching](/extras/gpu-patches.md)
-* [Fixing KASLR slide values](/extras/kaslr-fix.md)
-* [Disabling unsupported GPUs](/extras/spoof.md)
-* [Clover Conversion](https://github.com/dortania/OpenCore-Desktop-Guide/tree/master/clover-conversion)
+* [레거시 설치](/extras/legacy.md)
+* [GUI 피커와 부트차임 설정](/extras/gui.md)
+* [iGPU 패치](/extras/gpu-patches.md)
+* [KASLR slide 값 문제 해결](/extras/kaslr-fix.md)
+* [지원하지 않는 GPU 비활성화](/extras/spoof.md)
+* [클로버 변환](https://github.com/dortania/OpenCore-Desktop-Guide/tree/master/clover-conversion)
 
-## Misc
+## 기타
 
-* [Contributing](CONTRIBUTING.md)
-* [Credit](/misc/credit.md)
+* [공동작업](CONTRIBUTING.md)
+* [개발자](/misc/credit.md)
