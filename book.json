@@ -7,7 +7,7 @@
         },
         "github-buttons": {
           "buttons": [{
-            "user": "dortania",
+            "user": "Sixlow-OpenCore-KR",
             "repo": "OpenCore-Desktop-Guide",
             "type": "star",
             "size": "large"
@@ -17,7 +17,7 @@
           "label": "Navigation"
         },
         "github-edit": {
-            "repo": "dortania/Opencore-Desktop-Guide",
+            "repo": "Sixlow-OpenCore-KR/Opencore-Desktop-Guide",
             "branch": "master"
         },
         "favicon": "/icons/favicon.ico",
