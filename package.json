@@ -1,7 +1,7 @@
 {
   "name": "OpenCore-Desktop-Guide",
   "version": "0.5.8",
-  "description": "Guide to put macOS on unsupported devices",
+  "description": "지원하지 않는 장치에 macOS 설치를 위한 가이드",
   "main": " ",
   "devDependencies": {
     "gitbook-cli": "^2.3.2",
