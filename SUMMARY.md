@@ -2,43 +2,43 @@
 
 * [오픈코어 데스크탑 가이드](README.md)
 * [USB 설치 디스크 ](/installer-guide/README.md)
-  * [macOS install](/installer-guide/mac-install.md)
-  * [Windows install](/installer-guide/winblows-install.md)
-  * [Linux install](/installer-guide/linux-install.md)
-* [Adding The Base OpenCore Files](/installer-guide/opencore-efi.md)
-* [Gathering files](ktext.md)
-* [Getting started with ACPI](/extras/acpi.md)
+  * [macOS 설치](/installer-guide/mac-install.md)
+  * [Windows 설치](/installer-guide/winblows-install.md)
+  * [Linux 설치](/installer-guide/linux-install.md)
+* [오픈코어 기본 파일 추가](/installer-guide/opencore-efi.md)
+* [파일 구성](ktext.md)
+* [ACPI 시작하기](/extras/acpi.md)
 
-## Intel Config.plist
+## 인텔 데스크탑용 Config.plist
 
-* [Ivy Bridge](/config.plist/ivy-bridge.md)
-* [Haswell](/config.plist/haswell.md)
-* [Skylake](/config.plist/skylake.md)
-* [Kaby Lake](/config.plist/kaby-lake.md)
-* [Coffee Lake](/config.plist/coffee-lake.md)
+* [아이비 브릿지](/config.plist/ivy-bridge.md)
+* [하스웰](/config.plist/haswell.md)
+* [스카이레이크](/config.plist/skylake.md)
+* [카비레이크](/config.plist/kaby-lake.md)
+* [커피레이크](/config.plist/coffee-lake.md)
 
-## Intel HEDT Config.plist
+## 인텔 HEDT용 Config.plist
 
-* [Haswell-E](/config-HEDT/haswell-e.md)
-* [Broadwell-E](/config-HEDT/broadwell-e.md)
-* [Skylake-X](/config-HEDT/skylake-x.md)
+* [하스웰-E](/config-HEDT/haswell-e.md)
+* [브로드웰-E](/config-HEDT/broadwell-e.md)
+* [스카이레이크-X](/config-HEDT/skylake-x.md)
 
-## AMD Config.plist
+## AMD용 Config.plist
 
-* [Bulldozer/Jaguar](AMD/fx.md)
-* [Zen](AMD/zen.md)
+* [불도저/재규어](AMD/fx.md)
+* [젠](AMD/zen.md)
 
-## Installation
+## 오픈코어 설치 가이드
 
 * [Installation Process](/installation/installation-process.md)
 
-## Troubleshooting
+## 오픈코어 문제 해결
 
 * [General Troubleshooting](/troubleshooting/troubleshooting.md)
 * [OpenCore Debugging](/troubleshooting/debug.md)
 * [macOS Boot Process](/troubleshooting/boot.md)
 
-## Post Install
+## 오픈코어 설치후 단계
 
 * [Post-Install](/post-install/README.md)
   * [Security and FileVault](/post-install/security.md)
